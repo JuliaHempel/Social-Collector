@@ -217,8 +217,13 @@ $databases = array (
   array (
     'default' => 
     array (
+<<<<<<< HEAD
       'database' => 'social-collector',
       'username' => 'social-collector',
+=======
+      'database' => 'Social-Collector-DB',
+      'username' => 'Tora',
+>>>>>>> origin/master
       'password' => '',
       'host' => 'localhost',
       'port' => '',
@@ -258,7 +263,11 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
+<<<<<<< HEAD
 $drupal_hash_salt = 't6Ecs4MVIbci2UssZbVAu8npHgXatcu171wwnglzgGY';
+=======
+$drupal_hash_salt = '0EdBx-vjIjOT7fJNIndXScBO_OOT7SDnlLLKvQEWpIs';
+>>>>>>> origin/master
 
 /**
  * Base URL (optional).
